@@ -1,0 +1,8 @@
+Added Net: Name=BAT +
+Added Net: Name=GND
+Added Net: Name=Net1_2
+Added Net: Name=VIN
+Added Class: Name=door_sch
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2

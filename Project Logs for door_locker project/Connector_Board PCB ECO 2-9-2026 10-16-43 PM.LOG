@@ -1,0 +1,34 @@
+Added Component: Designator=*(BAT_1x2_CONNECTOR)
+Added Component: Designator=*(BUCK_1X4_CONNECTOR)
+Added Component: Designator=1(SOCKET_1x15_P2.54)
+Added Component: Designator=1(SOCKET_1x15_P2.54)
+Added Component: Designator=1(SERVO_1X3_CONNECTOR)
+Added Component: Designator=C1(CAPCITOR_1X2)
+Add component (AddParameter): Name = "CPAR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LSER"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RLSHUNT"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RPAR"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RSER"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SimulationGenericComponent"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "TEMP"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "470u"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BAT + Pin=*-1
+Added Pin To Net: NetName=BAT + Pin=*-1
+Added Pin To Net: NetName=GND Pin=*-2
+Added Pin To Net: NetName=GND Pin=*-2
+Added Pin To Net: NetName=VIN Pin=*-3
+Added Pin To Net: NetName=BAT + Pin=1-1
+Added Pin To Net: NetName=VIN Pin=1-1
+Added Pin To Net: NetName=GND Pin=1-2
+Added Pin To Net: NetName=GND Pin=1-2
+Added Pin To Net: NetName=Net1_2 Pin=1-2
+Added Pin To Net: NetName=GND Pin=1-3
+Added Pin To Net: NetName=Net1_2 Pin=1-9
+Added Pin To Net: NetName=BAT + Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Member To Class: ClassName=door_sch Member=Component * Battery connector
+Added Member To Class: ClassName=door_sch Member=Component * Buck_CONV_PINS
+Added Member To Class: ClassName=door_sch Member=Component 1 J1 Header1x15
+Added Member To Class: ClassName=door_sch Member=Component 1 J2 Header1x15
+Added Member To Class: ClassName=door_sch Member=Component 1 SERVO_PINS
+Added Member To Class: ClassName=door_sch Member=Component C1 Capacitor
